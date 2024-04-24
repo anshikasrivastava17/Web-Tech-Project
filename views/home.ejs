@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="top-bar">
+    <marquee behavior="scroll" direction="left">Get additional 10% off on your first purchase! Use code 'REVERIE10' to avail offers.</marquee>
+  </div>
+  <nav class="navbar">
+    <div class="navbar-right">
+      <a href="#"><img src="cart.png" alt="cart"><span class="carttext">CART</span></a>
+      <a href="#"><img src="wishlist.png" alt="wishlist">WISHLIST</a>
+      <a href="#"><img src="cont.png" alt="contacticon">CONTACT US</a>
+      <a href="#"><img src="Location.png" alt="storeicon">STORES</a>
+    </div>
+  </nav>
+  <div class="dropdown-box" id="dropdownBox">
+   
+  </div>
+
+  <!----navbar done -->
+
+  <div class="horizontal-navbar">
+    <img src="reverie.png" alt="category-icon">
+    <div class="horizontal-navbar-links">
+      <a href="/men">MEN</a>
+      <a href="/women">WOMEN</a>
+      <a href="/kids">KIDS</a>
+      <a href="/wedding">WEDDING</a>
+      <a href="/sale">SALE</a>
+    </div>
+    <div class="search-container">
+      <img src="search.png" alt="search-icon" class="searchicon">
+      <input type="text" placeholder="Search...">
+    </div>
+   <img src="deliv.png" alt="deliv-icon" class="delivery">
+  </div>
+
+  <!--- horizontal strap below navbar done-->
+
+
+  <div class="container">
+      <div class="slider-wrapper">
+        <ul class="image-list">
+          <img class="image-item" src="intro_img/img1.jpeg" alt="img-1" />
+          <img class="image-item" src="intro_img/img2.jpeg" alt="img-2" />
+          <img class="image-item" src="intro_img/img3.jpeg" alt="img-3" />
+          <img class="image-item" src="intro_img/img4.jpeg" alt="img-4" />
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--slider done-->
+
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h4>Reverie</h4>
+                  <ul>
+                      <li><a href="">Athleisure</a></li>
+                      <li><a href="">Formal Wear</a></li>
+                      <li><a href="">Bridal </a></li>
+                      <li><a href="">Accessories</a></li>
+                  </ul>
+              </div>
+
+              <!-- 2nd Column -->
+              <div class="footer-col">
+                  <h4>Properties</h4>
+                  <ul>
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Contact US</a></li>
+                      <li><a href="">Team</a></li>
+                      <li><a href="">Our History</a></li>
+                  </ul>
+              </div>
+
+              <!-- 3rd Column -->
+              <div class="footer-col">
+                  <h4>Services</h4>
+                  <ul>
+                      <li><a href="">API Integration</a></li>
+                      <li><a href="">Web Development</a></li>
+                      <li><a href="">Mobile Development</a></li>
+                      
+                  </ul>
+              </div>
+
+              <!-- 3th Column -->
+
+              <div class="footer-col">
+                  <h4>Newsletter</h4>
+                  <form id="myForm" action="">
+                    <input type="text" id="name" placeholder="Your Name" class="inputName">
+                    <input type="email" id="email" placeholder="Enter Company Email" class="inputEmail">
+                    <input type="submit" value="Submit" class="inputSubmit" onclick="validateForm()">
+                </form>
+                
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col">
+                  <p>&#169; 2023 <span class="designer">Reverie Fabrics.</span>All Rights Reserved.</p>
+              </div>
+              <div class="socialIcons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
