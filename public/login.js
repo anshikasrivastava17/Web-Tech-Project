@@ -24,7 +24,7 @@ function validateForm() {
                 return false;
             }
     
-            window.location.href = "/home";
+           window.location.href = "/home";
             return false;
         }
     
